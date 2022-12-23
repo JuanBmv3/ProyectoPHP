@@ -1,0 +1,33 @@
+.seccion {
+    margin-top: $separacion / 2;
+    margin-bottom: $separacion / 2;
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+table.propiedades{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: green;
+
+        th{
+            color: white;
+            padding: 2rem;
+        }
+
+    }
+
+    .imagen-tabla{
+        width: 10rem;
+    }
+}
+

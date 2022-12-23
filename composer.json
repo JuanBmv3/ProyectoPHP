@@ -1,0 +1,19 @@
+{
+    "name": "sabri/bienesraices",
+    "description": "CON POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "h4ckerv2",
+            "email": "sabrisjuan@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./classes"
+        }
+    }
+}
